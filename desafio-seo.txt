@@ -1,0 +1,13 @@
+Añadi:
+En todos los html en el title Gamercity | mas su correspondiente html.
+Tambien los siguientes keywords y descriptions.
+- Index-keywords: gamer productos hyperx Cooler-master zowie.
+- Index-description: Las marcas mas usadas por los gamers.
+- Productos-keywords: productos monitor gpro joystick teclado.
+- Productos-description: Todas las variedades completas para su uso competitivo.
+- Ofertas-keywords: off teclado placadevideo combogamer oferta.
+- Ofertas-description: Las mejores ofertas.
+- Nosotros-keywords: nosotros tecnologia conocimiento capacitados.
+- Nosotros-description: Contactanos en la mejor ubicación con la mejor tecnologia.
+- Contacto-keywords: Contacto sugerencia informacion ayuda comentario.
+- Contacto-description: Completa el formulario para recibir mas información.

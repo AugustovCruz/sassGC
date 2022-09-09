@@ -1,0 +1,20 @@
+@import './variables/colors';
+@import './variables/extend';
+@import './sections/footer';
+@import './sections/header';
+@import './sections/carousel';
+@import './sections/logosindex';
+@import './sections/off';
+@import './sections/products';
+@import './sections/us';
+@import './sections/contact';
+@import './querys/media';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: $gray;
+}

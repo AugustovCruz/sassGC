@@ -1,0 +1,11 @@
+/*logos de marcas */
+.logo {
+    &__card{
+        &--img {
+            margin: 10px auto;
+            height:auto;
+            width:160px;
+            border-radius: 10px;
+            box-shadow: #383838 -7px 7px 20px 0px;}
+}
+}

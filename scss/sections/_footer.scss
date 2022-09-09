@@ -1,0 +1,18 @@
+/* Pie de pagina*/
+.footer {
+    background-color: $bluedark;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    color: $white;
+    padding: 0px 20px;
+    &__redes {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        img{
+            justify-content: space-between;
+        }
+    }
+}

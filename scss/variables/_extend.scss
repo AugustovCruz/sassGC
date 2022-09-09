@@ -1,0 +1,22 @@
+//Extend
+%estiloPrincipal {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 32px;
+    font-style: italic;
+    width: 370px;
+    color: $white;
+    text-align: center;
+    background-color: $bluedark;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 50px;
+}
+//Mixin
+@mixin productos($color, $size){
+    color: $color;
+    text-align: center;
+    margin: 45px auto;
+    font-weight: bold;
+    font-size: 20px;
+}

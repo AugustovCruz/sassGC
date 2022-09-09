@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Mi css-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/icon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:ital,wght@0,100;0,300;1,100&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet"/>
+    <!--Keywords-->
+    <meta name="keywords" content="gamer productos hyperx Cooler-master zowie">
+    <!--Description-->
+    <meta name="description" content="Las marcas mas usadas por los gamers." >
+    <title>GAMERCITY | INICIO</title>
+</head>
+
+<body>
+    <!-- navegacion -->
+    <header class="header">
+        <a href="./index.html" class="header__title">GAMERCITY</a>
+        <!-- navegacion bootstrap-->
+        <nav class="navbar navbar-expand-md header__nav">
+            <div class="container-fluid justify-content-end ">
+                <button   button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav header__ul">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/ofertas.html">OFERTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin de Navegacion -->
+    <!-- Banner -->
+    <main>
+        <!-- Carousel -->
+        <section id="carouselExampleIndicators" class="carousel slide banner" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item ">
+                    <img src="./img/foto1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item active">
+                    <img src="./img/foto2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/foto3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+        <!-- Logos de Marcas -->
+        <section class="row text-center m-5 justify-content-center logo ">
+            <div class="col-8  col-sm-5 col-md-3 logo__card">
+                <img class="logo__card--img" src="./img/Cooler-master.jpg" alt="logo-cooler" />
+            </div>
+            <div class="col-8  col-sm-5 col-md-3 logo__card">
+                <img class="logo__card--img" src="./img/Hyperx.jpg" alt="logo-hyperx" />
+            </div>
+            <div class="col-8  col-sm-5 col-md-3 logo__card">
+                <img class="logo__card--img" src="./img/Corsair.jpg" alt="logo-corsair" />
+            </div>
+            <div class="col-8  col-sm-5 col-md-3 logo__card">
+                <img class="logo__card--img" src="./img/zowie-benq.jpg" alt="logo-zowie" />
+            </div>
+        </section>
+    </main>
+    <!-- Pie de pagina-->
+    <footer class="footer">
+        <p>Copyright ©</p>
+        <div class="footer__redes">
+            <p>Redes :</p>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./img/redes/facebook.png" alt="fbIcon"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./img/redes/instagram.png" alt="igIcon"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="./img/redes/whatsapp.png" alt="wspIcon"></a>
+            <a href="https://www.twitch.tv/titovcs/" target="_blank"><img src="./img/redes/twitch.png" alt="iconTwitch"></a>
+        </div>
+        </footer>
+    <!-- Fin de pie de pagina -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
