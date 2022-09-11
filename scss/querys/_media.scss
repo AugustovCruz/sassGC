@@ -9,9 +9,16 @@
         }
     }
     .header{
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: $bluedark;
         &__title {
-            display: none;
-    }
+            padding: 16px;
+            margin: 0;
+        }
+        &__ul {
+            font-size: 16px;
+        }
     }
     /*HTML inicio*/
     .footer{
@@ -36,8 +43,16 @@
         }
     }
 }
-@media (max-width:540px) {
+@media (max-width:576px) {
     /*HTML inicio*/
+    .header {
+        &__title {
+            font-size: 14px;
+        }
+        &__ul {
+            font-size: 10px;
+        }
+    }
     .logo {
         &__card{
             &--img {
@@ -53,22 +68,24 @@
     /*HTML productos*/
     .mainp{
         img {
-            height: 170px;
-            width: 180px;
+            height: 80%;
+            width: 100%;
         }
     } 
     /*HTML ofertas*/
     .mainoff{
         &__ofertas{
             img {
-                height: 160px;
-                width: 180px;
+                height: 100%;
+                width: 100%;
             }
         }
     }
-    /*HTML contacto*/
-    fieldset {
-        padding: 20px;
-        margin: 20px;
-    }    
+    /*HTML contacto*/  
+    .form{
+        &__fieldset {
+            padding: 20px;
+            margin: 20px;
+        } 
+    }
 }

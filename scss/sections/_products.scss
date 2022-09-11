@@ -1,17 +1,13 @@
 .mainp {
     min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     &__productos {
         img {
             margin: 30px auto;
-            height: 150px;
-            width: 160px;
+            height: 250px;
+            width: 270px;
             box-shadow: #dddada -7px 7px 20px 0px;
             &:hover {
-                -webkit-transform: scale(1.5);
-                transform: scale(1.5)
+                @extend %transform;
             }
         }
     }

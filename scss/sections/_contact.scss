@@ -1,5 +1,10 @@
 /* contacto*/
-fieldset {
-    padding: 100px;
-    margin: 100px;
+.form {
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    &__fieldset {
+        padding: 100px;
+        margin: 100px; 
+    }
 }

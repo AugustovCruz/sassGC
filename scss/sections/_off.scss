@@ -2,18 +2,17 @@
 .mainoff {
     @include productos($red, 20px);
     &__ofertas{
-        min-height: 50vh;
+        min-height: 55vh;
         display: flex;
         align-items: center;
         justify-content: center;
         img {
             margin: 20px auto;
-            height: 160px;
-            width: 170px;
+            height: 250px;
+            width: 270px;
             box-shadow: #dddada -7px 7px 20px 0px;
             &:hover {
-                -webkit-transform: scale(1.5);
-                transform: scale(1.5)
+                @extend %transform;
             }
         }
     }

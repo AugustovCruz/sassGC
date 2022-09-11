@@ -1,4 +1,27 @@
 /* Nosotros */
-.us {
-    min-height: 70vh;
+.mainus {
+    &__us{
+        &--img{
+            width: 100%;
+        }
+        &--p {
+            margin: 5px;
+        }
+    }
+    &__contacto{
+        &--img{
+            width: 100% ;
+        }
+        &--iframe {
+            width: 100%
+        }
+    }
+    &__ul {
+        margin: 15px 0px;
+        list-style: none;
+        text-decoration: none;
+        li {
+            margin: 10px;
+        }
+    }
 }

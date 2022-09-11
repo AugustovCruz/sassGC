@@ -7,6 +7,8 @@
         @extend %estiloPrincipal;
         &:hover {
             color: $lightblue;
+            transform: skew(-5deg);
+            transition: .7s;
         }
     }
     &__nav{
@@ -21,8 +23,7 @@
                 &:hover {
                     color: $lightblue;
                 }
-            }
-                
+            } 
         }
 }
 
