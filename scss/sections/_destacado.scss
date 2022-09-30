@@ -1,0 +1,25 @@
+/*Prodcutos destacados */
+.titlegrid{
+  background-color:#79c9e5;
+  padding: 12px 0px;
+  margin: 32px 0px;
+  text-align: center; 
+}
+.contenedor {
+  margin: 15px 10px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "img1 img2 img3"
+    "img4 img5 img6";
+  img {
+    margin: 12px 0px;
+    height: 250px;
+    width: 230px;
+    box-shadow: #beb9b9 -7px 7px 20px 0px;
+    border-radius: 10px;
+  }
+}
+

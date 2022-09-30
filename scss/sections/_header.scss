@@ -15,6 +15,9 @@
         padding: 20px;
         background-color: $bluedark;
         width: 100%;
+        &--icon {
+            display: none;
+        }
     }
     &__ul{
             a {
